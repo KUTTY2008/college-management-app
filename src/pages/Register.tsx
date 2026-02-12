@@ -82,6 +82,7 @@ export const Register = () => {
 
           <div className="mb-6 flex rounded-xl bg-slate-800/50 p-1">
             <button
+            type="button"
               className={clsx(
                 "flex-1 rounded-lg py-2 text-sm font-medium transition-all",
                 role === 'student' ? "bg-indigo-600 text-white shadow-lg" : "text-slate-400 hover:text-white"
@@ -91,6 +92,7 @@ export const Register = () => {
               Student
             </button>
             <button
+            type="button"
               className={clsx(
                 "flex-1 rounded-lg py-2 text-sm font-medium transition-all",
                 role === 'staff' ? "bg-purple-600 text-white shadow-lg" : "text-slate-400 hover:text-white"
